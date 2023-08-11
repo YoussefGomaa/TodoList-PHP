@@ -1,0 +1,76 @@
+body{
+  background-color: rgb(58, 158, 158)
+}
+
+
+
+textarea{
+
+  resize:none;
+}
+form input{
+  width: 200px;
+}
+input[type=submit]{
+  width:100px;
+  color: white;
+  background-color: rgb(93, 187, 224);
+  border:transparent solid ;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.todoContainer{
+
+  display:flex;
+  justify-content: center;
+}
+
+ .todo{
+
+  width:33.3%;
+  padding-left: 100px ;
+  box-sizing: border-box;
+} 
+
+.all,.doing,.done{
+  width: 80%;
+  padding:2px 5px 10px 5px;
+  margin-top: 10px;
+}
+
+.all
+{
+  background-color: rgb(184, 230, 230);
+}
+
+.doing{
+  background-color: rgb(181, 182, 180);
+}
+
+
+.done{
+  background-color: rgb(219, 231, 197);
+}
+
+.todo h2{
+  color:white;
+}
+
+.btndoing,.btnedit,.btndone{
+  border:transparent solid ;
+  color:white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btns{
+  display: flex;
+  justify-content: space-between;
+}
+.btndoing,.btnedit{
+  background-color: rgb(93, 187, 224);
+}
+
+.btndone{
+  background-color: rgb(88, 173, 88);
+}
